@@ -15,12 +15,12 @@ Before setting up Kind, you need to ensure the following tools are installed on 
 ## Create a Kubernetes Cluster Using Kind
 ``` 
 kind create cluster --name kubernetes-poc
-``
-
+```
 ## Verify Cluster
 ```
 kubectl cluster-info --context kind-kubernetes-poc
 ```
+
 
 ## Deploy an Application
 ```
